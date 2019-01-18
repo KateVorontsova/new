@@ -1,0 +1,162 @@
+body{
+display: flex;
+flex-direction: column;
+
+    background-color: #eee;
+     width: 700px;
+    height: 380px;
+  margin:10vh auto;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3);
+      font-family: "Open+Sans", sans-serif;
+   
+}
+
+header{
+     height: 80px;
+  background-color: #FF9800;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: center;
+  position:relative;
+}
+
+#getMessage {
+  width: 40px;
+  height:40px;
+  color: #eee;
+}
+
+#search-txt {
+  color: red;
+  height:30px;
+  border-radius: 10px;
+  border-style:none;
+  outline:none;
+  padding-right:1px;
+  padding-left:1px;
+  text-align:center;
+}
+
+.search {
+  position: absolute;
+  left: 50%;
+  top:50%;
+  -webkit-transform:translate(-50%,-50%);
+          transform:translate(-50%,-50%);
+}
+
+
+.b-weather{
+    list-style: none;
+        display: flex;
+flex-direction: row;
+     text-align: center;
+    margin-left: -40px;
+    height: 300px;
+    margin-top: 0px;
+
+margin-bottom: 0px;
+}
+
+.b-weather__day{
+     margin: none;
+    display: flex;
+flex-direction: column;
+    width: 25%;
+     background-color: #00a300;
+    border-right: 2px solid #eec;
+     border-left: 2px solid #eec;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.b-weather__day:first-child{
+    border-bottom-left-radius: 25px;
+    border-left: 2px solid #eec;
+    margin-left: 2px;
+}
+
+.b-weather__day:last-child{
+    border-bottom-right-radius: 25px;
+    border-right: 2px solid #eec;
+    margin-right: 2px;
+}
+
+
+
+
+.b-weather__img{
+    width:100%;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+  /*background-color: #FFC107;*/
+      height: 100%;
+     width: 50%;
+    margin-top: -20px;
+    padding-top: 40px;  
+}
+
+.b-weather__logo{
+     height: 0px;
+}
+
+
+
+img{
+ 
+    width:64px;
+    border-radius: 50%;
+    box-shadow: 0 0 7px #666;
+    position: relative;
+    top: -60px;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+.b-weather__descr{
+    width:100%;
+     margin-bottom: 1%;
+}
+
+
+.b-weather__data{
+    width:100%;
+    line-height: 1.5;
+        border-bottom-right-radius: 25px;
+  /*background-color: #9C27B0;*/
+      height: 100%;
+  width: 50%;
+    margin-top: 10px;
+    padding-top: 40px;
+   
+}
+
+
+.b-weather__date{
+    background-color: #FFC107;
+    margin-top: 0px;
+
+padding-top: 50px;
+
+padding-bottom: 50px;
+}
+
+.b-weather__minTemp{
+   
+   margin-bottom: 1%;
+    
+}
+.b-weather__maxTemp{
+   
+   margin-bottom: 1%;
+    
+}
